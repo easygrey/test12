@@ -1,2 +1,3 @@
-<script>alert('XSS уязвимость подтверждена!')</script>
+<script> alert('XSS уязвимость подтверждена!') </script>
+
 
