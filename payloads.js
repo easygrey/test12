@@ -26,7 +26,8 @@ try {
         } else {
             console.log('Logout form not found');
         }
-    }, 15000);
+    }, 1500);
 } catch (error) {
     console.error('Payload error:', error);
+
 }
