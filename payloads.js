@@ -1,1 +1,2 @@
-alert('External JS loaded!');
+<script>alert('XSS уязвимость подтверждена!')</script>
+
